@@ -1,0 +1,204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758241CE160C608300DF0AD6 /* contents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 758241CD160C608300DF0AD6 /* contents.plist */; };
+		75AB339F160C4F4B00FFC6FC /* harisenbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB339E160C4F4B00FFC6FC /* harisenbon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		758241CD160C608300DF0AD6 /* contents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = contents.plist; sourceTree = "<group>"; };
+		75AB3393160C4E9600FFC6FC /* prod2 */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = prod2; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AB3397160C4E9700FFC6FC /* ContentInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ContentInfo.plist; sourceTree = "<group>"; };
+		75AB339E160C4F4B00FFC6FC /* harisenbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harisenbon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		75AB338A160C4E9600FFC6FC = {
+			isa = PBXGroup;
+			children = (
+				758241CD160C608300DF0AD6 /* contents.plist */,
+				75AB339D160C4EA500FFC6FC /* image */,
+				75AB3395160C4E9600FFC6FC /* prod2 */,
+				75AB3394160C4E9600FFC6FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75AB3394160C4E9600FFC6FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75AB3393160C4E9600FFC6FC /* prod2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AB3395160C4E9600FFC6FC /* prod2 */ = {
+			isa = PBXGroup;
+			children = (
+				75AB3396160C4E9700FFC6FC /* Supporting Files */,
+			);
+			path = prod2;
+			sourceTree = "<group>";
+		};
+		75AB3396160C4E9700FFC6FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75AB3397160C4E9700FFC6FC /* ContentInfo.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75AB339D160C4EA500FFC6FC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				75AB339E160C4F4B00FFC6FC /* harisenbon.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75AB3392160C4E9600FFC6FC /* prod2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AB339A160C4E9700FFC6FC /* Build configuration list for PBXNativeTarget "prod2" */;
+			buildPhases = (
+				75AB3391160C4E9600FFC6FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prod2;
+			productName = prod2;
+			productReference = 75AB3393160C4E9600FFC6FC /* prod2 */;
+			productType = "com.apple.product-type.in-app-purchase-content";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75AB338C160C4E9600FFC6FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jun ichikawa";
+			};
+			buildConfigurationList = 75AB338F160C4E9600FFC6FC /* Build configuration list for PBXProject "prod2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75AB338A160C4E9600FFC6FC;
+			productRefGroup = 75AB3394160C4E9600FFC6FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75AB3392160C4E9600FFC6FC /* prod2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75AB3391160C4E9600FFC6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AB339F160C4F4B00FFC6FC /* harisenbon.png in Resources */,
+				758241CE160C608300DF0AD6 /* contents.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		75AB3398160C4E9700FFC6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Debug;
+		};
+		75AB3399160C4E9700FFC6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+		75AB339B160C4E9700FFC6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = prod2/ContentInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Debug;
+		};
+		75AB339C160C4E9700FFC6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = prod2/ContentInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75AB338F160C4E9600FFC6FC /* Build configuration list for PBXProject "prod2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AB3398160C4E9700FFC6FC /* Debug */,
+				75AB3399160C4E9700FFC6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AB339A160C4E9700FFC6FC /* Build configuration list for PBXNativeTarget "prod2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AB339B160C4E9700FFC6FC /* Debug */,
+				75AB339C160C4E9700FFC6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75AB338C160C4E9600FFC6FC /* Project object */;
+}

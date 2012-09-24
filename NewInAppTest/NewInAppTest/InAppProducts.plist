@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>productId</key>
+		<string>jp.co.conit.prod1</string>
+		<key>title</key>
+		<string>お魚その１</string>
+	</dict>
+	<dict>
+		<key>productId</key>
+		<string>jp.co.conit.prod2</string>
+		<key>title</key>
+		<string>お魚その２</string>
+	</dict>
+	<dict>
+		<key>productId</key>
+		<string>jp.co.conit.prod3</string>
+		<key>title</key>
+		<string>お魚その３</string>
+	</dict>
+	<dict>
+		<key>productId</key>
+		<string>jp.co.conit.prod4</string>
+		<key>title</key>
+		<string>お魚その４</string>
+	</dict>
+	<dict>
+		<key>productId</key>
+		<string>jp.co.conit.prod5</string>
+		<key>title</key>
+		<string>お魚その５</string>
+	</dict>
+</array>
+</plist>
